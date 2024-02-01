@@ -1,0 +1,126 @@
+.main-container-d{
+    width:100%;
+    height:650px;
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg");
+    margin-top:70px;
+    margin-top:0px;
+    position:relative;
+}
+
+
+@media screen and (max-width:768px) {
+    .main-container-d{
+    margin-top:138px;
+    height:1100px;
+    }
+    }
+
+.smalld{
+    width:70%;
+    height:630px;
+    margin:auto;
+}
+
+@media screen and (max-width:768px) {
+    .smalld{
+        width:100%;
+        margin-top:-138px;
+        display:grid;
+        height:auto;
+    }
+    }
+
+.smallhalfd{
+    width:49%;
+    height:556px;
+    display:inline-block;
+
+}
+
+@media screen and (max-width:768px) {
+    .smallhalfd{
+        width:100%;
+        height:auto;
+        display:block;
+    }
+    }
+
+
+.smallhalfd img{
+    margin-top:180px;
+    width:300px;
+    height:300px;
+    border-radius:5%;
+    margin-left:50px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .smallhalfd img{
+    margin-left:40px;
+    margin-top:40px;
+    border-radius:50%;
+    }
+    }
+
+#mainh1d{
+    font-family:'Raleway', sans-serif;
+    margin-top:150px;
+    font-size:50px;
+    color:white;
+}
+
+@media screen and (max-width:768px) {
+    #mainh1d{
+    font-size:40px;
+    margin-left:15px;
+    color:rgb(102, 255, 60);
+    font-weight: bold;
+    }
+    }
+
+
+@media screen and (max-width:768px) {
+    #mainh2d,#mainh3d{
+    font-size:40px;
+    margin-left:15px;
+    }
+    }
+
+
+
+@media screen and (max-width:768px) {
+    #mainp1d{
+    margin-left:15px;
+    }
+    }
+
+
+#mainh2d{
+    color:#a9dba9;
+    font-size:45px;
+}
+
+#mainh3d{
+    font-size:42px;
+    color:#a9dba9;
+}  
+
+#mainp1d{
+    margin-top:20px;
+    font-size:19px;
+    color:silver;
+}
+
+#btn111d{
+    border-radius:2px solid white;
+    background-color:white;
+    margin-left:50px;
+    padding:5px 12px;
+    border-radius:20px;
+    background:linear-gradient(rgb(247, 132, 10),rgb(217, 225, 225));
+    margin-top:20px;
+}
+
+  

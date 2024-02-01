@@ -1,0 +1,66 @@
+.educa{
+    width:100%;
+    background-color:rgb(192, 190, 190);
+    height:350px;
+}
+
+@media screen and (max-width:400px) {
+    .educa{
+        height:620px;
+    }
+}
+
+#secofedu{
+    text-align:center;
+    color:black;
+    font-weight:500;
+    font-size:25px;
+}
+
+
+.edusmall{
+    width:40%;
+    height:250px;
+    margin-top:20px;
+    margin-left:100px;
+    box-shadow:5px 5px 10px rgb(255, 255, 255);
+    background-color:rgb(192, 190, 190);
+    border-radius:20px;
+    float:left;
+}
+
+
+@media screen and (max-width:400px) {
+    .edusmall{
+    width:90%;
+    margin-left:20px;
+    }
+    
+}
+
+#instu{
+    font-size:25px;
+    color:rgb(255, 33, 33);
+    font-weight: bold;
+    margin-left:10px;
+    margin-top:16px;
+}
+
+#collage{
+    font-size:25px;
+    margin-left:10px;
+    margin-top:16px
+}
+
+#year{
+    font-size:25px;
+    margin-left:10px;
+    margin-top:16px  
+}
+
+#percent{
+    font-size:25px;
+    margin-left:10px;
+    margin-top:16px
+}
+

@@ -1,0 +1,112 @@
+.footer{
+width:100%;
+height:250px;
+background-color:rgb(131, 131, 131);
+}
+
+@media screen and (max-width:400px) {
+    .footer{
+    width:100%;
+    height:500px;
+    background-color:rgb(192, 190, 190)
+    }
+}
+
+#footlink{
+color:black;
+}
+
+
+@media screen and (max-width:400px) {
+  #footlink{
+    margin-left:10px;
+    color:green;
+  }
+}
+
+
+.mfoot{
+    width:400px;
+    height:150px;
+    margin-top:50px;
+    float:left;
+    margin-left:80px;
+}
+
+@media screen and (max-width:400px) {
+    .mfoot{
+        width:100%;
+       margin-left:0px;
+       margin-top:5px;
+    }
+}
+
+#icons45{
+    width:40px;
+    color:black;
+    height:40px;
+}
+#icons46{
+    width:40px;
+    color:black;
+    height:40px;
+}
+#icons47{
+    width:40px;
+    color:black;
+    height:40px;
+}
+#icons48{
+    width:40px;
+    color:black;
+    height:40px;
+}
+
+#icons49{
+    width:40px;
+    color:black;
+    height:40px;
+}
+
+#icons50{
+    width:40px;
+    color:black;
+    height:40px;
+}
+
+@media screen and (max-width:400px) {
+ #icons45,#icons46,#icons47,#icons48,#icons49,#icons50{
+    margin-left:10px;
+ }
+}
+
+
+#icons45:hover{
+    color:rgb(255, 10, 10);
+    cursor: pointer;
+}
+
+#icons46:hover{
+    color:rgb(38, 125, 255);
+    cursor: pointer;
+}
+
+#icons47:hover{
+    color:rgb(149, 0, 255);
+    cursor: pointer;
+}
+
+#icons48:hover{
+    color:rgb(0, 255, 64);
+    cursor: pointer;
+}
+
+#icons49:hover{
+    color:rgb(72, 72, 220);
+    cursor: pointer;
+}
+
+#icons50:hover{
+    color:rgb(255, 123, 0);
+     cursor: pointer;
+}

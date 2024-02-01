@@ -1,0 +1,66 @@
+.secondpage{
+    width:70%;
+    justify-content:center;
+    height:80px;
+    margin:auto;
+    align-items:center;
+}
+
+.smallforicon{
+    width:75%;
+    height:80px;
+    margin:auto;
+     display:flex;
+     justify-content: space-between;
+}
+
+#icons1,#icons2,#icons3,#icons4,#icons5,#icons6{
+    color:rgb(250, 241, 223);
+    margin-top:20px;
+    width:100px;
+    height:50px;
+}
+
+@media screen and (max-width:768px) {
+    .smallforicon{
+        width:100%;
+    }
+    }
+
+
+    @media screen and (max-width:768px) {
+    #icons1,#icons2,#icons3,#icons4,#icons5,#icons6{
+        width:50px;
+        height:40px;
+    }
+    }
+
+    #icons1:hover{
+        color:rgb(6, 103, 248);
+        cursor: pointer;
+    }
+
+    #icons2:hover{
+        color:rgb(38, 125, 255);
+        cursor: pointer;
+    }
+
+    #icons3:hover{
+        color:rgb(149, 0, 255);
+        cursor: pointer;
+    }
+
+    #icons4:hover{
+        color:rgb(0, 255, 64);
+        cursor: pointer;
+    }
+
+    #icons5:hover{
+        color:rgb(72, 72, 220);
+        cursor: pointer;
+    }
+
+    #icons6:hover{
+        color:rgb(255, 123, 0);
+         cursor: pointer;
+    }

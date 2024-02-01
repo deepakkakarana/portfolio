@@ -1,0 +1,109 @@
+.exprience{
+    width:100%;
+    height:600px;
+    background-color:black;
+}
+
+.expr-small{
+    width:70%;
+    height:600px;
+    margin: auto;
+}
+
+@media screen and (max-width:400px) {
+   .expr-small{
+    width:100%;
+   } 
+    
+}
+
+.half-ex{
+    width:450px;
+    height:300px;
+    float:left;
+    display:block;
+    box-shadow:5px 5px 10px antiquewhite ;
+    margin-top:100px;
+    border-radius:15px;
+    margin-left:50px;
+    /* background-color:blue; */
+}
+
+@media screen and (max-width:400px) {
+    .half-ex{
+     width:310px;
+     height:250px;
+     margin-left:30px;
+     margin-top:30px;
+    } 
+     
+ }
+
+ .half-ex h2{
+    text-align:center;
+    margin-top:10px;
+    font-weight:500;
+    font-size:18px;
+    color:white;
+
+ }
+ .forthpart{
+    width:175px;
+    height:105px;
+    background-color:rgb(235, 132, 132);
+    display:flex;
+    border-radius:10px;
+    box-shadow:5px 5px 10px blue;
+    float: left;
+    margin-left:30px;
+    margin-top:12px;
+ }
+
+ .forthpart:hover{
+   color:rgb(208, 0, 255);
+ }
+
+ @media screen and (max-width:400px) {
+    .forthpart{
+     width:130px;
+     margin-left:15px;
+     height:80px;
+    } 
+     
+ }
+
+ #icon00{
+    margin-top:20px;
+    margin-left:15px;
+ }
+
+ .forthpart h3{
+    margin-left:15px;
+    margin-top:16px;
+    font-weight:500;
+ }
+
+ @media screen and (max-width:400px) {
+    .forthpart h3{
+    font-size:15px;
+    margin-top:15px;
+    margin-left:10px;
+    } 
+     
+ }
+
+ .forthpart p{
+    margin-top:50px;
+    color:silver;
+    position:absolute;
+    margin-left:40px;
+ }
+
+ 
+ @media screen and (max-width:400px) {
+    .forthpart p{
+    margin-top:40px;
+    margin-left:30px;
+    } 
+     
+ }
